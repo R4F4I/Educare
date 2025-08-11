@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+
+# But not these files/folders:
+!.gitignore
+!lib/
+!lib/**
+!readme.md
+!pubspec.yaml
+!assets/
+!readme-images/
