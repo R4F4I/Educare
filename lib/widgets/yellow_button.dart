@@ -9,7 +9,7 @@ class YellowButton extends StatelessWidget {
   final double? width;
   final double? radius;
   final String? text;
-  final Function onPressed;
+  final void Function()? onPressed;
 
   const YellowButton({
     super.key,
@@ -35,7 +35,7 @@ class YellowButton extends StatelessWidget {
           ),
           padding: EdgeInsets.symmetric(horizontal: horzPadding??68, vertical: vertPadding??10),
         ),
-        onPressed: ()=> onPressed,
+        onPressed:onPressed,
         child: Text(text??'Get Started', style: TextStyle(fontFamily: 'Gilroy', fontSize: 20, color: Colors.black),)
       ),
     );

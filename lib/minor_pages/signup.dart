@@ -1,5 +1,6 @@
 import 'package:educare/config.dart';
 import 'package:educare/major_pages/home.dart';
+import 'package:educare/minor_pages/login.dart';
 import 'package:educare/widgets/text_field.dart';
 import 'package:educare/widgets/yellow_button.dart';
 import 'package:flutter/material.dart';
@@ -42,7 +43,7 @@ class Signup extends StatelessWidget {
           vertPadding: 15,
           elevation: 0,
           text: 'Sign up',
-          onPressed: ()=> Get.to(()=>()),
+          onPressed: ()=> Get.to(()=>Home()),
         ),
         SizedBox(height: 20),
         Text('already have an account?', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
@@ -59,7 +60,7 @@ class Signup extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
             ),
             onPressed: (){
-              Get.to(()=>Home());
+              Get.to(()=>Login());
             }, 
             child: Text('log in', style: TextStyle(fontFamily: 'Gilroy', fontSize: 20, color: Colors.white),)
           ),

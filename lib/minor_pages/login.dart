@@ -1,5 +1,5 @@
 import 'package:educare/config.dart';
-import 'package:educare/splash_screen.dart';
+// import 'package:educare/splash_screen.dart';
 import 'package:educare/widgets/logo.dart';
 import 'package:educare/widgets/text_field.dart';
 import 'package:educare/widgets/yellow_button.dart';
